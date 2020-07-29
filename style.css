@@ -1,0 +1,15 @@
+#reset {
+  width: 100px;
+  height: 36px;
+}
+
+.grid-container {
+  width: 600px;
+  height: 600px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-rows: repeat(16, 1fr);
+  grid-template-columns: repeat(16, 1fr);
+  border: 1px solid black;
+}
+
